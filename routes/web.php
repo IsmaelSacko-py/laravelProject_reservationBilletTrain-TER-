@@ -13,6 +13,36 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('pages.accueil');
+})->name("index");
+
+Route::get("/rent-venue", function(){
+    return view("pages.rent-venue");
+})->name("rent-venue");
+
+Route::get("/about", function(){
+    return view("pages.about");
+})->name("about");
+
+Route::get("/shows-events", function(){
+    return view("pages.shows-events");
+})->name("shows-events");
+
+Route::get("/tickets", function(){
+    return view("pages.tickets");
+})->name("tickets");
+
+Route::get("/event-details", function(){
+    return view("pages.event-details");
+})->name("event-details");
+
+Route::get("/ticket-details", function(){
+    return view("pages.ticket-details");
+})->name("ticket-details");
+
+
