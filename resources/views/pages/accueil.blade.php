@@ -97,28 +97,28 @@
                 <div class="col-lg-12">
                     <div class="owl-show-events owl-carousel">
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-01.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-01.jpg') }}" alt=""></a>
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-02.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-02.jpg') }}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-03.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-03.jpg') }}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-04.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-04.jpg') }}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-01.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-01.jpg') }}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-02.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-02.jpg') }}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-03.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-03.jpg') }}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/show-events-04.jpg" alt=""></a> 
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/show-events-04.jpg') }}" alt=""></a> 
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
 
     <!-- *** Map ***-->
     <div class="map-image">
-        <img src="http://localhost/glese/resources/images/map-image.jpg" alt="Maps of 3 Venues">
+        <img src="{{ asset('images/map-image.jpg') }}" alt="Maps of 3 Venues">
     </div>
 
 
@@ -173,7 +173,7 @@
                 <div class="col-lg-4">
                     <div class="venue-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/venue-01.jpg" alt="">
+                            <img src="{{ asset('images/venue-01.jpg') }}" alt="">
                         </div>
                         <div class="down-content">
                             <div class="left-content">
@@ -198,7 +198,7 @@
                 <div class="col-lg-4">
                     <div class="venue-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/venue-02.jpg" alt="">
+                            <img src="{{ asset('images/venue-02.jpg') }}" alt="">
                         </div>
                         <div class="down-content">
                             <div class="left-content">
@@ -223,7 +223,7 @@
                 <div class="col-lg-4">
                     <div class="venue-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/venue-03.jpg" alt="">
+                            <img src="{{ asset('images/venue-03.jpg') }}" alt="">
                         </div>
                         <div class="down-content">
                             <div class="left-content">
@@ -262,7 +262,7 @@
                 <div class="col-lg-4">
                     <div class="event-item">
                         <div class="thumb">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/event-01.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/event-01.jpg') }}" alt=""></a>
                         </div>
                         <div class="down-content">
                             <a href="{{ route('event-details') }}"><h4>Radio City Musical Hall</h4></a>
@@ -276,7 +276,7 @@
                 <div class="col-lg-4">
                     <div class="event-item">
                         <div class="thumb">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/event-02.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/event-02.jpg') }}" alt=""></a>
                         </div>
                         <div class="down-content">
                             <a href="{{ route('event-details') }}"><h4>Madison Square Garden</h4></a>
@@ -290,7 +290,7 @@
                 <div class="col-lg-4">
                     <div class="event-item">
                         <div class="thumb">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/event-03.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/event-03.jpg') }}" alt=""></a>
                         </div>
                         <div class="down-content">
                             <a href="{{ route('event-details') }}"><h4>Royce Hall</h4></a>

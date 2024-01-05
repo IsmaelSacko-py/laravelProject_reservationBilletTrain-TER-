@@ -75,13 +75,13 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="left-image">
-                        <img src="http://localhost/glese/resources/images/about-image.jpg" alt="party time">
+                        <img src="{{ asset('images/about-image.jpg') }}" alt="party time">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="right-content">
                         <div class="about-map-image">
-                            <img src="http://localhost/glese/resources/images/about-map-image.jpg" alt="party location">
+                            <img src="{{ asset('images/about-map-image.jpg') }}" alt="party location">
                         </div>
                         <div class="down-content">
                             <h4>Radio City Musical Hall</h4>
@@ -172,7 +172,7 @@
                 <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/like-01.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/like-01.jpg') }}" alt=""></a>
                             <div class="icons">
                                 <ul>
                                     <li><a href="{{ route('event-details') }}"><i class="fa fa-arrow-right"></i></a></li>
@@ -189,7 +189,7 @@
                 <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/like-02.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/like-02.jpg') }}" alt=""></a>
                             <div class="icons">
                                 <ul>
                                     <li><a href="{{ route('event-details') }}"><i class="fa fa-arrow-right"></i></a></li>
@@ -206,7 +206,7 @@
                 <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                            <a href="{{ route('event-details') }}"><img src="http://localhost/glese/resources/images/like-03.jpg" alt=""></a>
+                            <a href="{{ route('event-details') }}"><img src="{{ asset('images/like-03.jpg') }}" alt=""></a>
                             <div class="icons">
                                 <ul>
                                     <li><a href="{{ route('event-details') }}"><i class="fa fa-arrow-right"></i></a></li>

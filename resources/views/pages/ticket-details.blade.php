@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="left-image">
-                        <img src="http://localhost/glese/resources/images/ticket-details.jpg" alt="">
+                        <img src="{{ asset('images/ticket-details.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">

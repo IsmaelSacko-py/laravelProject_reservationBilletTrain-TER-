@@ -154,7 +154,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-01.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-01.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -190,7 +190,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-02.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-02.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -226,7 +226,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-03.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-03.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -262,7 +262,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-04.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-04.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -361,7 +361,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-04.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-04.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -397,7 +397,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-03.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-03.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -433,7 +433,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-02.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-02.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -469,7 +469,7 @@
                                                             </div>
                                                             <div class="col-lg-4">
                                                                 <div class="thumb">
-                                                                    <img src="http://localhost/glese/resources/images/event-page-01.jpg" alt="">
+                                                                    <img src="{{ asset('images/event-page-01.jpg') }}" alt="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">

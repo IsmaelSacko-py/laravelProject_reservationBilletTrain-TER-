@@ -13,13 +13,13 @@
 
     
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="http://localhost/glese/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="http://localhost/glese/resources/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="http://localhost/glese/resources/css/owl-carousel.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl-carousel.css') }}">
 
-    <link rel="stylesheet" href="http://localhost/glese/resources/css/tooplate-artxibition.css">
+    <link rel="stylesheet" href="{{ asset('css/tooplate-artxibition.css') }}">
 <!--
 
 Tooplate 2125 ArtXibition
@@ -114,23 +114,23 @@ https://www.tooplate.com/view/2125-artxibition
     </footer>
 
     <!-- jQuery -->
-    <script src="http://localhost/glese/resources/js/jquery-2.1.0.min.js"></script>
+    <script src="{{ asset('js/jquery-2.1.0.min.js') }}"></script>
 
     <!-- Bootstrap -->
-    <script src="cjs/popper.js"></script>
-    <script src="http://localhost/glese/resources/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/popper.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
     <!-- Plugins -->
-    <script src="http://localhost/glese/resources/js/scrollreveal.min.js"></script>
-    <script src="http://localhost/glese/resources/js/waypoints.min.js"></script>
-    <script src="http://localhost/glese/resources/js/jquery.counterup.min.js"></script>
-    <script src="http://localhost/glese/resources/js/imgfix.min.js"></script> 
-    <script src="http://localhost/glese/resources/js/mixitup.js"></script> 
-    <script src="http://localhost/glese/resources/js/accordions.js"></script>
-    <script src="http://localhost/glese/resources/js/owl-carousel.js"></script>
+    <script src="{{ asset('js/scrollreveal.min.js') }}"></script>
+    <script src="{{ asset('js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('js/imgfix.min.js') }}"></script> 
+    <script src="{{ asset('js/mixitup.js') }}"></script> 
+    <script src="{{ asset('js/accordions.js') }}"></script>
+    <script src="{{ asset('js/owl-carousel.js') }}"></script>
     
     <!-- Global Init -->
-    <script src="http://localhost/glese/resources/js/custom.js"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
 
   </body>
 </html>

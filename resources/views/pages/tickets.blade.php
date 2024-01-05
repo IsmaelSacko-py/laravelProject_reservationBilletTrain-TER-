@@ -129,7 +129,7 @@
                 <div class="col-lg-4">
                     <div class="ticket-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/ticket-01.jpg" alt="">
+                            <img src="{{ asset('images/ticket-01.jpg') }}" alt="">
                             <div class="price">
                                 <span>1 ticket<br>from <em>$25</em></span>
                             </div>
@@ -150,7 +150,7 @@
                 <div class="col-lg-4">
                     <div class="ticket-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/ticket-02.jpg" alt="">
+                            <img src="{{ asset('images/ticket-02.jpg') }}" alt="">
                             <div class="price">
                                 <span>1 ticket<br>from <em>$45</em></span>
                             </div>
@@ -171,7 +171,7 @@
                 <div class="col-lg-4">
                     <div class="ticket-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/ticket-03.jpg" alt="">
+                            <img src="{{ asset('images/ticket-03.jpg') }}" alt="">
                             <div class="price">
                                 <span>1 ticket<br>from <em>$65</em></span>
                             </div>
@@ -192,7 +192,7 @@
                 <div class="col-lg-4">
                     <div class="ticket-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/ticket-04.jpg" alt="">
+                            <img src="{{ asset('images/ticket-04.jpg') }}" alt="">
                             <div class="price">
                                 <span>1 ticket<br>from <em>$20</em></span>
                             </div>
@@ -213,7 +213,7 @@
                 <div class="col-lg-4">
                     <div class="ticket-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/ticket-05.jpg" alt="">
+                            <img src="{{ asset('images/ticket-05.jpg') }}" alt="">
                             <div class="price">
                                 <span>1 ticket<br>from <em>$30</em></span>
                             </div>
@@ -234,7 +234,7 @@
                 <div class="col-lg-4">
                     <div class="ticket-item">
                         <div class="thumb">
-                            <img src="http://localhost/glese/resources/images/ticket-06.jpg" alt="">
+                            <img src="{{ asset('images/ticket-06.jpg') }}" alt="">
                             <div class="price">
                                 <span>1 ticket<br>from <em>$40</em></span>
                             </div>
